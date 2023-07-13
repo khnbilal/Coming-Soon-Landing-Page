@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Wanderlust', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/My\ project-1\ \(1\).png);
+    background-position: center;
+    background-size:cover;
+    padding: 10px 8%;
+    text-align: center;
+    color: #fff;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn{
+    background: linear-gradient(black, rgb(45, 41, 44));
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.content{
+    margin: 15% auto 0;
+}
+
+.content h1{
+    font-size: 65px;
+    font-weight: 400;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    height: 65px;
+    background: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+form input{
+    flex: 1;
+    padding: 20px 30px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+form .btn{
+    padding: 0;
+    width: 150px;
+    height: 65px;
+    border-radius: 31px;
+}
+
+form input::placeholder{
+    font-size: 16px;
+}
+
+.links{
+    margin-top: 14%;
+}
+
+.links a{
+    margin: 10px;
+}
+
+.links a img{
+    width: 30px;
+}
